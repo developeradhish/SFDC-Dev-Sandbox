@@ -1,0 +1,18 @@
+<apex:page controller="accountListController">
+    <apex:form >
+        <apex:pageblock id="pbButtons">
+            <apex:pageblockButtons >
+                <apex:commandButton value="Delete" action="{!deleteList}"/>
+            </apex:pageblockButtons>
+             
+            <apex:pageblocktable value="{!accountList}" var="tempAcc">
+                <apex:column headerValue="Account Name">
+                    <apex:outputText value="{!tempAcc.Name}" id="AccountList"/><br/>
+                </apex:column>
+                <apex:column headerValue="Delete">
+                    <apex:inputCheckbox id="confirmDelete"/>
+                </apex:column>
+            </apex:pageblocktable>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

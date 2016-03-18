@@ -1,0 +1,7 @@
+<apex:page showHeader="false" renderAs="pdf">
+  
+  <h3>Congratulations
+  APEX is AWESOME </h3>
+  This is your new Page: SamplePage
+ 
+</apex:page>

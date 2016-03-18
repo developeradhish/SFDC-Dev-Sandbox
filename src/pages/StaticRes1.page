@@ -1,0 +1,8 @@
+<apex:page >
+  
+  <h1>Congratulations</h1>
+  This is your new Page
+  
+  <apex:stylesheet value="{!$Resource.Sample_CSS}"/>
+  <apex:includeScript value="{!$Resource.Sample_JavaScript}"/>
+</apex:page>
